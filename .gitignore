@@ -39,3 +39,6 @@ ansible.key
 ansible.key.pub
 openstack.key
 openstack.key.pub
+
+#open rc files
+app-cred-*-openrc.sh
