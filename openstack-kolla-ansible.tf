@@ -181,5 +181,6 @@ resource "openstack_compute_instance_v2" "deploy-instance" {
     destination_type = "volume"
     boot_index       = 0
     volume_size      = 20 # Adjust size as needed
+    delete_on_termination = true  # Set this flag to delete the volume on instance termination
   }
 }
