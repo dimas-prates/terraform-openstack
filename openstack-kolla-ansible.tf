@@ -131,6 +131,7 @@ resource "openstack_compute_instance_v2" "openstack-controller-instances" {
     destination_type = "volume"
     boot_index       = 0
     volume_size      = 20 # Adjust size as needed
+    delete_on_termination = true  # Set this flag to delete the volume on instance termination
   }
 }
 
@@ -155,6 +156,7 @@ resource "openstack_compute_instance_v2" "openstack-compute-instances" {
     destination_type = "volume"
     boot_index       = 0
     volume_size      = 20 # Adjust size as needed
+    delete_on_termination = true  # Set this flag to delete the volume on instance termination
   }
 }
 
