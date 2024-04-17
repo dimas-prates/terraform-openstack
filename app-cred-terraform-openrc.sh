@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-export OS_AUTH_TYPE=v3applicationcredential
-export OS_AUTH_URL=https://identity.wse.zone/v3/
-export OS_IDENTITY_API_VERSION=3
-export OS_REGION_NAME="BR-SP-01"
-export OS_INTERFACE=public
-export OS_APPLICATION_CREDENTIAL_ID=6a81f7b95e2c497495ea2f4562063ab3
-export OS_APPLICATION_CREDENTIAL_SECRET=3dkymmbOiCp7xjrBDppI9UUovNsNilPNmvA68YPOB4KXhmu_gbCjC2276FLszwMD0SibbX7pyXFRfjB9vyCTpQ
